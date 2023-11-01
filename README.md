@@ -10,3 +10,9 @@ Here is a way how you can change the python script to get the user input:
 
 Just replace the sample payload with the code shown and it will ask you to enter the payload.
 Keep in mind that you can make changes to the script however you want to suit your prefferences. 
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Inspired by @t3l3machus
