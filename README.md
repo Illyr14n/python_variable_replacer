@@ -4,11 +4,11 @@ This python script is used to replace the variable names of a powershell script,
 You will need to download the py file and run it in a ide and replace the sample script with your script. You can easily change the python script to get the user input, but i preffer to do it this way
 ---------------------------------------
 
-Here is a way how you can change the python script to get the user input:
+Here is a way how you can change the python script to get the user input, Just replace the sample payload with the code shown and it will ask you to enter the payload:
 
-![image](https://github.com/janitootrappy/python_variable_replacer/assets/77370159/732dff4d-5315-451b-9706-b0f2963cdc7b)
+powershell_script = input("Enter your Payload ")
 
-Just replace the sample payload with the code shown and it will ask you to enter the payload.
+
 Keep in mind that you can make changes to the script however you want to suit your prefferences. 
 
 
